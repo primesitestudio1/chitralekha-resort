@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chitralekha Boutique Resort — luxury stay in Dehradun with Mussoorie valley views, pool, and Buransh Blossoms dining. Your Mini Mussoorie escape." />
+  <title>Chitralekha Boutique Resort | Dehradun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <svg class="svg-filters" aria-hidden="true" focusable="false">
+    <filter id="video-sharpen" color-interpolation-filters="sRGB">
+      <feConvolveMatrix order="3" kernelMatrix="0 -0.5 0 -0.5 3 -0.5 0 -0.5 0" />
+    </filter>
+    <filter id="video-hd" color-interpolation-filters="sRGB">
+      <feConvolveMatrix order="3" kernelMatrix="0 -0.5 0 -0.5 3 -0.5 0 -0.5 0" />
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.08" intercept="-0.03" />
+        <feFuncG type="linear" slope="1.08" intercept="-0.03" />
+        <feFuncB type="linear" slope="1.08" intercept="-0.03" />
+      </feComponentTransfer>
+      <feColorMatrix type="saturate" values="1.18" />
+    </filter>
+  </svg>
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <span class="loader-mark">च</span>
+    <span class="loader-text">Chitralekha</span>
+    <span class="loader-bar"><span class="loader-bar-fill"></span></span>
+  </div>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-mark">च</span>
+        <span class="logo-text">Chitralekha<em>Boutique Resort</em></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#films">Films</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact" class="btn-nav">Book Stay</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-bg" id="hero-parallax">
+        <div class="hero-media-wrap" id="hero-media-wrap">
+          <video
+            id="hero-video"
+            class="hero-video site-video"
+            src="videos/VID-20260520-WA0028.mp4"
+            muted
+            loop
+            playsinline
+            autoplay
+            preload="auto"
+            poster="images/pool-mosaic-exterior.png"
+            disablePictureInPicture
+          ></video>
+          <img
+            src="images/hero-evening-garden.png"
+            alt="Chitralekha Boutique Resort — evening garden seating with Mussoorie valley lights at twilight"
+            fetchpriority="high"
+            id="hero-fallback"
+            class="hero-fallback is-active"
+          />
+        </div>
+        <div class="hero-vignette" aria-hidden="true"></div>
+        <div class="hero-cinematic-bars" aria-hidden="true">
+          <span></span><span></span>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-shine" aria-hidden="true"></div>
+      </div>
+      <div class="hero-content container">
+        <p class="hero-eyebrow reveal reveal-down">Dehradun · Uttarakhand</p>
+        <h1 class="hero-title reveal reveal-blur">
+          <span class="title-line">Where the hills</span>
+          <span class="title-line title-accent">whisper luxury</span>
+        </h1>
+        <p class="hero-sub reveal">
+          Nestled above the valley — misty mornings, pine-scented air, and Mussoorie views.
+          Welcome to your <strong>Mini Mussoorie</strong>.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#contact" class="btn btn-primary">Reserve Your Escape</a>
+          <a href="#about" class="btn btn-ghost">Discover the Resort</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div><span class="stat-num">12+</span><span class="stat-label">Boutique Rooms</span></div>
+          <div><span class="stat-num">∞</span><span class="stat-label">Valley Views</span></div>
+          <div><span class="stat-num">24/7</span><span class="stat-label">Concierge</span></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <span>Scroll</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal reveal-left">
+          <figure class="about-img-main">
+            <div
+              class="video-card video-card--about"
+              data-video="videos/VID-20260520-WA0025.mp4"
+              data-title="Resort grounds &amp; architecture"
+            >
+              <video class="site-video" muted loop playsinline preload="metadata" poster="images/resort-grounds-aerial.png"></video>
+              <div class="video-card-overlay"></div>
+              <button type="button" class="video-card-play" aria-label="Play resort grounds video with sound">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <span class="video-card-badge">▶ Resort Tour</span>
+            </div>
+            <figcaption>Resort grounds — lawn, gardens &amp; Mussoorie-facing architecture</figcaption>
+          </figure>
+          <figure class="about-img-accent">
+            <img src="images/balcony-lawn-mussoorie-view.png" alt="Private balcony at Chitralekha Resort with yellow seating and distant Mussoorie hills" loading="lazy" />
+            <figcaption>Private balconies · valley &amp; mountain panoramas</figcaption>
+          </figure>
+          <div class="about-badge">
+            <span>Est.</span>
+            <strong>2025</strong>
+          </div>
+        </div>
+        <div class="about-copy reveal reveal-right">
+          <span class="section-tag">Our Story</span>
+          <h2 class="section-title">A boutique sanctuary in the Doon Valley</h2>
+          <p>
+            Chitralekha Boutique Resort is crafted for travellers who crave intimacy without
+            compromising on comfort. Perched where Dehradun meets the sky, our property blends
+            contemporary design with the soul of the Himalayas.
+          </p>
+          <p>
+            Wake to valley mist rolling past your window. Spend afternoons by the pool or on your
+            private lawn. Evenings unfold at <strong>Buransh Blossoms</strong> — our restaurant
+            celebrating local flavours and continental finesse.
+          </p>
+          <ul class="about-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              Mussoorie & jungle panoramas
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Minutes from Robber's Cave & Malsi Deer Park
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              Weddings & celebrations welcome
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="rooms section section-dark" id="rooms">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Accommodations</span>
+          <h2 class="section-title">Rooms designed for the view</h2>
+          <p class="section-desc">Egyptian cotton linens, designer toiletries, and down duvets in every suite.</p>
+        </div>
+        <div class="rooms-grid">
+          <article class="room-card reveal">
+            <figure class="room-img">
+              <img src="images/room-garden-view-interior.png" alt="Garden View Room — white linens, yellow accents, sliding doors to private patio and lawn" loading="lazy" />
+              <span class="room-tag">Most Popular</span>
+              <figcaption class="room-caption">Garden View Room · interior with private patio</figcaption>
+            </figure>
+            <div class="room-body">
+              <h3>Pool · Mussoorie View · Lawn</h3>
+              <p>Bright boutique interiors with Egyptian cotton linens, sunny yellow accents, channel-tufted headboard, and sliding glass doors opening onto your private patio and manicured garden.</p>
+              <ul class="room-amenities">
+                <li>Private patio &amp; lawn</li>
+                <li>Pool access</li>
+                <li>AC · WiFi · split AC</li>
+              </ul>
+              <a href="#contact" class="room-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="room-card reveal">
+            <figure class="room-img">
+              <img src="images/room-deluxe-balcony-suite.png" alt="Deluxe Balcony Suite — traditional woven runner, yellow armchairs, terracotta jali railing, Mussoorie view" loading="lazy" />
+              <figcaption class="room-caption">Deluxe Suite · balcony seating &amp; hill views</figcaption>
+            </figure>
+            <div class="room-body">
+              <h3>Pool · Jungle · Mussoorie View</h3>
+              <p>Spacious room with wood-textured flooring, traditional textile accents, yellow lounge chairs, and a private balcony framed by terracotta jali railings overlooking the lawn and distant Mussoorie ridges.</p>
+              <ul class="room-amenities">
+                <li>Private balcony</li>
+                <li>Flat-screen TV</li>
+                <li>Tea / coffee station</li>
+              </ul>
+              <a href="#contact" class="room-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="room-card reveal">
+            <figure class="room-img">
+              <img src="images/room-sliding-door-garden.png" alt="Premium Room — floor-to-ceiling sliding doors, Monstera planters, lime-green pavilion and mountain backdrop" loading="lazy" />
+              <figcaption class="room-caption">Premium Room · garden &amp; mountain outlook</figcaption>
+            </figure>
+            <div class="room-body">
+              <h3>Mussoorie View · Personal Lawn</h3>
+              <p>Wake to sweeping garden and mountain views through floor-to-ceiling sliding doors — stone-textured balcony, decorative jali screens, and the resort's iconic lime-green pavilion in frame.</p>
+              <ul class="room-amenities">
+                <li>Panoramic garden view</li>
+                <li>Private balcony ledge</li>
+                <li>Premium wood flooring</li>
+              </ul>
+              <a href="#contact" class="room-link">Enquire →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">The Experience</span>
+          <h2 class="section-title">Every moment, thoughtfully curated</h2>
+        </div>
+        <div class="experience-grid">
+          <figure class="exp-card exp-card-large reveal">
+            <div
+              class="video-card video-card--exp"
+              data-video="videos/VID-20260520-WA0027.mp4"
+              data-title="Pool &amp; outdoor experience"
+            >
+              <video class="site-video" muted loop playsinline preload="metadata" poster="images/pool-mosaic-exterior.png"></video>
+              <div class="video-card-overlay"></div>
+              <button type="button" class="video-card-play" aria-label="Play pool experience video with sound">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <span class="video-card-badge">▶ Pool &amp; Gardens</span>
+            </div>
+            <figcaption class="exp-caption">Exterior · mosaic pool with Mussoorie mountain backdrop</figcaption>
+            <div class="exp-card-content">
+              <h3>Infinity of Calm</h3>
+              <p>Our outdoor pool with blue mosaic tiling reflects boutique stone rooms, the lime-green guest wing, and misty Himalayan hills — with a dedicated kids' zone for families.</p>
+            </div>
+          </figure>
+          <div class="exp-card reveal">
+            <div class="exp-icon">🍽</div>
+            <h3>Buransh Blossoms</h3>
+            <p>Continental, buffet & à la carte dining. Rhododendron-inspired warmth in every plate.</p>
+          </div>
+          <div class="exp-card reveal">
+            <div class="exp-icon">🚲</div>
+            <h3>Explore Freely</h3>
+            <p>Complimentary bicycles, garden terraces, indoor games, and curated local tours.</p>
+          </div>
+          <div class="exp-card reveal">
+            <div class="exp-icon">🔥</div>
+            <h3>Evening Hearth</h3>
+            <p>Gather by the reception fireplace as the valley lights begin to sparkle below.</p>
+          </div>
+          <div class="exp-card reveal">
+            <div class="exp-icon">✨</div>
+            <h3>Celebrations</h3>
+            <p>Dream weddings and intimate events amid pine forests and open skies.</p>
+          </div>
+        </div>
+        <div class="amenities-bar reveal">
+          <span>Free WiFi</span>
+          <span>Private Parking</span>
+          <span>24h Room Service</span>
+          <span>Airport Shuttle</span>
+          <span>Satellite TV</span>
+          <span>Tour Desk</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="films section section-dark" id="films">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Resort Films</span>
+          <h2 class="section-title">See Chitralekha in motion</h2>
+          <p class="section-desc">Cinematic walkthroughs of our boutique property — tap any film to watch with sound.</p>
+        </div>
+
+        <article
+          class="films-featured reveal reveal-scale"
+          data-video="videos/VID-20260520-WA0027.mp4"
+          data-title="Chitralekha Boutique Resort — full experience"
+        >
+          <div class="video-card video-card--featured">
+            <video class="site-video" muted loop playsinline preload="metadata" poster="images/hero-evening-garden.png"></video>
+            <div class="video-card-overlay"></div>
+            <button type="button" class="video-card-play video-card-play--large" aria-label="Play featured resort film">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <div class="films-featured-copy">
+              <span class="films-featured-tag">Featured Film</span>
+              <h3>Your Mini Mussoorie awaits</h3>
+              <p>Evening gardens, valley views &amp; boutique luxury in Dehradun</p>
+            </div>
+          </div>
+        </article>
+
+        <div class="films-grid reveal">
+          <article
+            class="films-item"
+            data-video="videos/VID-20260520-WA0025.mp4"
+            data-title="Resort grounds walkthrough"
+          >
+            <div class="video-card video-card--film">
+              <video class="site-video" muted loop playsinline preload="metadata" poster="images/resort-grounds-aerial.png"></video>
+              <div class="video-card-overlay"></div>
+              <button type="button" class="video-card-play" aria-label="Play grounds walkthrough">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <div class="films-item-info">
+                <h4>Grounds &amp; Architecture</h4>
+                <p>Lawns, terraces &amp; hill-facing design</p>
+              </div>
+            </div>
+          </article>
+          <article
+            class="films-item"
+            data-video="videos/VID-20260520-WA0028.mp4"
+            data-title="Pool &amp; outdoor lifestyle"
+          >
+            <div class="video-card video-card--film">
+              <video class="site-video" muted loop playsinline preload="metadata" poster="images/pool-mosaic-exterior.png"></video>
+              <div class="video-card-overlay"></div>
+              <button type="button" class="video-card-play" aria-label="Play pool lifestyle film">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+              <div class="films-item-info">
+                <h4>Pool &amp; Open Air</h4>
+                <p>Mosaic pool, gardens &amp; mountain mist</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section section-dark" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Gallery</span>
+          <h2 class="section-title">A glimpse of paradise</h2>
+          <p class="section-desc">Photography &amp; still moments from Chitralekha — exteriors, pool, gardens, rooms &amp; private balconies.</p>
+        </div>
+
+        <p class="gallery-category reveal">Exterior &amp; Grounds</p>
+        <div class="gallery-grid reveal" data-gallery="exterior">
+          <figure class="gallery-item gallery-wide">
+            <button type="button" data-index="0" aria-label="View: Evening garden with valley lights">
+              <img src="images/hero-evening-garden.png" alt="Evening garden at Chitralekha Resort — lawn seating, globe lamps, diamond-pattern walkway, Mussoorie valley lights at twilight" loading="lazy" />
+            </button>
+            <figcaption>Evening garden · valley lights &amp; globe lamps</figcaption>
+          </figure>
+          <figure class="gallery-item gallery-tall">
+            <button type="button" data-index="1" aria-label="View: Resort grounds aerial">
+              <img src="images/resort-grounds-aerial.png" alt="Aerial view — terracotta balconies, central lawn, lime-green pavilion, landscaped walkways" loading="lazy" />
+            </button>
+            <figcaption>Aerial · full resort layout &amp; lawns</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" data-index="2" aria-label="View: Swimming pool exterior">
+              <img src="images/pool-mosaic-exterior.png" alt="Mosaic-tiled pool reflecting boutique architecture and misty mountains" loading="lazy" />
+            </button>
+            <figcaption>Pool · blue mosaic &amp; mountain mist</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" data-index="3" aria-label="View: Balcony overlooking lawn">
+              <img src="images/balcony-lawn-mussoorie-view.png" alt="Balcony with yellow cushions, jali railing, green lawn and Mussoorie hills" loading="lazy" />
+            </button>
+            <figcaption>Balcony · lawn &amp; Mussoorie panorama</figcaption>
+          </figure>
+        </div>
+
+        <p class="gallery-category reveal">Interiors &amp; Rooms</p>
+        <div class="gallery-grid gallery-grid-rooms reveal" data-gallery="interiors">
+          <figure class="gallery-item">
+            <button type="button" data-index="4" aria-label="View: Garden view bedroom">
+              <img src="images/room-garden-view-interior.png" alt="Garden View Room — yellow pillows, channel headboard, patio doors to garden" loading="lazy" />
+            </button>
+            <figcaption>Garden View Room · patio access</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" data-index="5" aria-label="View: Deluxe suite with balcony">
+              <img src="images/room-deluxe-balcony-suite.png" alt="Deluxe Suite — traditional runner, yellow armchairs, open balcony to hills" loading="lazy" />
+            </button>
+            <figcaption>Deluxe Suite · woven accents &amp; balcony</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" data-index="6" aria-label="View: Room 107 private balcony">
+              <img src="images/room-107-private-balcony.png" alt="Room 107 — stone-textured balcony, wooden chairs, yellow cushions, bedroom beyond glass doors" loading="lazy" />
+            </button>
+            <figcaption>Room 107 · private stone balcony</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" data-index="7" aria-label="View: Deluxe room workspace">
+              <img src="images/room-deluxe-tv-workspace.png" alt="Deluxe Room — wall-mounted TV, wood desk, kettle station, balcony with jali screen" loading="lazy" />
+            </button>
+            <figcaption>Deluxe Room · TV, desk &amp; tea station</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" data-index="8" aria-label="View: Mountain view balcony">
+              <img src="images/balcony-mountain-view.png" alt="Terracotta jali balcony — yellow seating, pink croton plants, green wing &amp; misty mountains" loading="lazy" />
+            </button>
+            <figcaption>Mountain-view balcony · jali &amp; gardens</figcaption>
+          </figure>
+          <figure class="gallery-item gallery-wide">
+            <button type="button" data-index="9" aria-label="View: Sliding doors garden outlook">
+              <img src="images/room-sliding-door-garden.png" alt="Premium room — sliding doors to garden, Monstera planters, lime pavilion, blue mountains" loading="lazy" />
+            </button>
+            <figcaption>Premium Room · garden &amp; mountain outlook</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="nearby section" id="nearby">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Explore Dehradun</span>
+          <h2 class="section-title">Adventures at your doorstep</h2>
+        </div>
+        <div class="nearby-grid reveal">
+          <div class="nearby-card">
+            <span class="nearby-dist">3.4 mi</span>
+            <h4>Malsi Deer Park</h4>
+            <p>Wildlife and nature walks for families.</p>
+          </div>
+          <div class="nearby-card">
+            <span class="nearby-dist">3.7 mi</span>
+            <h4>Robber's Cave</h4>
+            <p>Mystical river gorge — a local favourite.</p>
+          </div>
+          <div class="nearby-card">
+            <span class="nearby-dist">4.2 mi</span>
+            <h4>Tibetan Buddhist Temple</h4>
+            <p>Peaceful architecture and mountain serenity.</p>
+          </div>
+          <div class="nearby-card">
+            <span class="nearby-dist">22 mi</span>
+            <h4>Kempty Falls</h4>
+            <p>Iconic Mussoorie day trip through the hills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="location section section-dark" id="location">
+      <div class="container location-grid">
+        <div class="location-copy reveal">
+          <span class="section-tag">Find Us</span>
+          <h2 class="section-title">In the heart of the hills</h2>
+          <p>
+            Chitralekha Boutique Resort sits above Dehradun with sweeping views toward Mussoorie.
+            Easy road access, complimentary parking, and airport transfers on request.
+          </p>
+          <address>
+            Chitralekha Boutique Resort<br />
+            Dehradun, Uttarakhand, India
+          </address>
+          <a
+            href="https://www.google.com/maps/place/Chitralekha+Boutique+Resort+Dehradun+%7C+Resort+in+Dehradun/@30.3927735,78.0561237,17z"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Open in Google Maps
+          </a>
+        </div>
+        <div class="location-map reveal">
+          <iframe
+            title="Chitralekha Boutique Resort on Google Maps"
+            src="https://maps.google.com/maps?q=30.3927735,78.0561237&hl=en&z=15&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <span class="section-tag">Reservations</span>
+          <h2 class="section-title">Begin your hill retreat</h2>
+          <p>Share your dates and we'll respond with availability and bespoke packages for stays, dining, and events.</p>
+          <div class="contact-direct">
+            <a href="tel:+917303360245" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 73033 60245</span>
+            </a>
+            <a href="https://wa.me/917303360245?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20stay%20at%20Chitralekha%20Boutique%20Resort." target="_blank" rel="noopener noreferrer" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              <span>WhatsApp — quick booking</span>
+            </a>
+            <a href="https://www.instagram.com/chitralekhaboutiqueresort?igsh=MTR4Ynd4YzV1eHUzMg==" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <span>@chitralekhaboutiqueresort</span>
+            </a>
+            <a href="mailto:stay@chitralekharesort.com" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>stay@chitralekharesort.com</span>
+            </a>
+            <a href="https://chitralekharesort.com" target="_blank" rel="noopener" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <span>chitralekharesort.com</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="booking-form">
+          <div class="form-row">
+            <label>
+              <span>Full Name</span>
+              <input type="text" name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              <span>Phone</span>
+              <input type="tel" name="phone" required placeholder="+91 …" />
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              <span>Check-in</span>
+              <input type="date" name="checkin" required />
+            </label>
+            <label>
+              <span>Check-out</span>
+              <input type="date" name="checkout" required />
+            </label>
+          </div>
+          <label>
+            <span>Room Preference</span>
+            <select name="room">
+              <option value="">Select a room type</option>
+              <option>Pool + Mussoorie View + Lawn</option>
+              <option>Pool + Jungle + Mussoorie View</option>
+              <option>Mussoorie View + Personal Lawn</option>
+              <option>Not sure — advise me</option>
+            </select>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" placeholder="Guests, occasions, special requests…"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-full">Send Enquiry</button>
+          <p class="form-note">Or tap WhatsApp / Call below for the fastest response.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo-mark">च</span>
+        <p>Chitralekha Boutique Resort — Dehradun's Mini Mussoorie.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#experience">Experience</a>
+        <a href="#films">Films</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/chitralekhaboutiqueresort?igsh=MTR4Ynd4YzV1eHUzMg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram — @chitralekhaboutiqueresort">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://wa.me/917303360245" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <a href="tel:+917303360245" aria-label="Call +91 73033 60245">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> Chitralekha Boutique Resort. Crafted with care.</p>
+    </div>
+  </footer>
+
+  <div class="float-actions" aria-label="Quick contact">
+    <a href="tel:+917303360245" class="float-btn float-btn-call">
+      <span class="float-btn-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      </span>
+      <span class="float-btn-text">Call Now</span>
+    </a>
+    <a
+      href="https://wa.me/917303360245?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20stay%20at%20Chitralekha%20Boutique%20Resort."
+      class="float-btn float-btn-whatsapp"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span class="float-btn-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      </span>
+      <span class="float-btn-text">WhatsApp</span>
+    </a>
+  </div>
+
+  <div class="video-modal" id="video-modal" hidden>
+    <div class="video-modal-backdrop"></div>
+    <div class="video-modal-box">
+      <button type="button" class="video-modal-close" aria-label="Close video">&times;</button>
+      <p class="video-modal-title" id="video-modal-title"></p>
+      <video id="video-modal-player" class="site-video" controls playsinline></video>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" aria-label="Close gallery">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">‹</button>
+    <img src="" alt="" id="lightbox-img" />
+    <button class="lightbox-next" aria-label="Next image">›</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
